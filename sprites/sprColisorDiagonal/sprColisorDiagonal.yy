@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprColisorDiagonal","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprColisorDiagonal",
     "tags": [],
     "resourceType": "GMSequence",

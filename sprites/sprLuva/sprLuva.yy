@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprLuva","path":"sprites/sprLuva/sprLuva.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprLuva",
     "tags": [],
     "resourceType": "GMSequence",

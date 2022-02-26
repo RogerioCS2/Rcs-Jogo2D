@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 0,
   "type": 0,
   "origin": 4,
@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprColisor","path":"sprites/sprColisor/sprColisor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sprColisor",
     "tags": [],
     "resourceType": "GMSequence",
