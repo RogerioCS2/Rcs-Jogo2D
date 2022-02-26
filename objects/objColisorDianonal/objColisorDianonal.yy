@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sprColisor",
-    "path": "sprites/sprColisor/sprColisor.yy",
+    "name": "sprColisorDiagonal",
+    "path": "sprites/sprColisorDiagonal/sprColisorDiagonal.yy",
   },
   "solid": true,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objetos/Cenario.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objColisor",
+  "name": "objColisorDianonal",
   "tags": [],
   "resourceType": "GMObject",
 }

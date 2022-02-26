@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 0,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9ca048f6-5fdf-4b4f-83cf-2cdeb06e67e6","path":"sprites/sprColisor/sprColisor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9ca048f6-5fdf-4b4f-83cf-2cdeb06e67e6","path":"sprites/sprColisor/sprColisor.yy",},"LayerId":{"name":"e568264a-7052-4fca-8e2a-3be3b3dc795d","path":"sprites/sprColisor/sprColisor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprColisor","path":"sprites/sprColisor/sprColisor.yy",},"resourceVersion":"1.0","name":"9ca048f6-5fdf-4b4f-83cf-2cdeb06e67e6","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d926443c-91d1-4161-bd35-2dcc6e6c1d0c","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d926443c-91d1-4161-bd35-2dcc6e6c1d0c","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},"LayerId":{"name":"f244746a-3040-4179-87fc-8ccfc676a756","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprColisorDiagonal","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},"resourceVersion":"1.0","name":"d926443c-91d1-4161-bd35-2dcc6e6c1d0c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprColisor","path":"sprites/sprColisor/sprColisor.yy",},
+    "spriteId": {"name":"sprColisorDiagonal","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a722d51c-c427-40b1-84d8-5170313abdec","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9ca048f6-5fdf-4b4f-83cf-2cdeb06e67e6","path":"sprites/sprColisor/sprColisor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9928dcd2-dc14-4a2b-99c4-1a79052bfae0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d926443c-91d1-4161-bd35-2dcc6e6c1d0c","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprColisor","path":"sprites/sprColisor/sprColisor.yy",},
+    "parent": {"name":"sprColisorDiagonal","path":"sprites/sprColisorDiagonal/sprColisorDiagonal.yy",},
     "resourceVersion": "1.3",
-    "name": "sprColisor",
+    "name": "sprColisorDiagonal",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e568264a-7052-4fca-8e2a-3be3b3dc795d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f244746a-3040-4179-87fc-8ccfc676a756","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Cenario.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprColisor",
+  "name": "sprColisorDiagonal",
   "tags": [],
   "resourceType": "GMSprite",
 }

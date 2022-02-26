@@ -1,4 +1,5 @@
 globalvar frente, traz, pulo;
+globalvar subindoRampa;
 
 noChao = false;
 velocidadeHorizontal = 0;

@@ -1,9 +1,9 @@
-function Colisao(){
-	if(place_meeting(x + velocidadeHorizontal, y, objColisor)){
+function Colisao(){	
+if(place_meeting(x + velocidadeHorizontal, y, objColisor)){
 		while !place_meeting(x + sign(velocidadeHorizontal), y, objColisor){
-			x += sign(velocidadeHorizontal);			
+			x += sign(velocidadeHorizontal);
 		}
-		velocidadeHorizontal = 0;	
+		velocidadeHorizontal = 0;
 	}
 
 	if(place_meeting(x, y + velocidadeVertical, objColisor)){
@@ -22,7 +22,7 @@ function MovimentoPlayer(){
 	velocidadeHorizontal = (frente - traz) * velocidadeHorizontalMaxima;
 	Colisao();
 	
-	noChao = place_meeting(x, y + 1, objColisor)
+	noChao = (place_meeting(x, y + 1, objColisor));
 	if(noChao){gravidade = 0;}else{gravidade = 0.2;}		
 	if(pulo){velocidadeVertical = -velocidadeVerticalMaxima;}else{velocidadeVertical += gravidade}
 
