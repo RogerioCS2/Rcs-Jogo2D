@@ -1,6 +1,9 @@
 chaoI = place_meeting(x, y + 1, objColisor); 
-paredeDireita = place_meeting(x + 1, y, objColisor); 
-paredeEsquerda = place_meeting(x - 1, y, objColisor);
+
+paredeEsquerda = (place_meeting(x - 1, y, objColisorDianonal)) || (place_meeting(x - 1, y, objInimigoBase));
+paredeDireita = (place_meeting(x + 1, y, objColisorDianonal)) || (place_meeting(x + 1, y, objInimigoBase)) ;
+show_debug_message("Parede E: " + string(paredeEsquerda) + " Parede D: " + string(paredeDireita));
+
 if(paredeEsquerda || paredeDireita){velhI *= -1;}
 
 if(velhI != 0){
@@ -8,6 +11,5 @@ if(velhI != 0){
 	sprite_index = sprInimigoAndandoDireita;
 }
 
-if(!chaoI){
-	velvI += gravI;
-}
+
+if(!chaoI){velvI += gravI;}

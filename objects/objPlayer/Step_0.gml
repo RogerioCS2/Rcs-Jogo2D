@@ -35,7 +35,7 @@ if(chao && jump){
 	}
 }
 
-if(slide){	
+if(slide && chao){	
 	slide_time--;
 	sprite_index = sprPlayerRasteiraDireitaA;
 	velh = image_xscale * 15;
@@ -48,5 +48,30 @@ if(slide){
 		image_yscale = 1;		
 	}	
 }
+
+var danoInimigo = instance_place(x, y + 3, objInimigoBase);
+if(danoInimigo && !chao){	
+	velv = -max_velv;
+	instance_destroy(danoInimigo);
+}
+
+if( place_meeting(x, y, objInimigoBase)){dano = true;}
+
+if(dano){
+	velh = velh * -2;
+	//velv = -2;
+	sprite_index = sprLevandoDano;
+	image_blend = c_red;
+	
+	danoTimer--;
+	show_debug_message( danoTimer);
+	
+	if(danoTimer <= 0){		
+		dano = false;
+		image_blend = c_white;			
+		danoTimer = room_speed / 4;	
+	}	
+}
+
 
 //ColisaEMovimento();
