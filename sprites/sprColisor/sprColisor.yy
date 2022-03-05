@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Cenario",
-    "path": "folders/Sprites/Cenario.yy",
+    "name": "Gerais",
+    "path": "folders/Sprites/Cenario/Gerais.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprColisor",

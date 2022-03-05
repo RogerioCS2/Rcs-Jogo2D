@@ -34,7 +34,7 @@ if(velh != 0  && playerSelecionado == 2){
 }
 if(run && velh != 0  && playerSelecionado == 2){
 	image_xscale = sign(velh);	
-	sprite_index = sprPlayerCorrendoDireitaA;
+	sprite_index = sprPlayerCorrendoB; 
 }
 
 if(chao && jump){
@@ -46,11 +46,11 @@ if(chao && jump){
 	}
 }
 
-if(slide && chao){	
+if(slide && chao && playerSelecionado == 1){	
 	slide_time--;
 	sprite_index = sprPlayerRasteiraDireitaA;
 	velh = image_xscale * 15;
-	image_yscale = 0.5;
+	image_yscale = 0.7;
 	
 	semColisaoTeto = (!place_meeting(x, y - sprite_height, objColisor));  	
 	if(slide_time <= 0 && semColisaoTeto){
@@ -60,16 +60,21 @@ if(slide && chao){
 	}	
 }
 
+if(dash && playerSelecionado == 2){	
+	show_debug_message("Largando Balão");	
+	instance_create_layer(x + 25 * image_xscale, y, layer, objBalao);
+}
+
 var danoInimigo = instance_place(x, y + 3, objInimigoBase);
 if(danoInimigo && !chao && velv > 0){	
 	velv = -max_velv;
 	instance_destroy(danoInimigo);
 }
 
-if(instance_place(x, y, objBalao)){
+if(instance_place(x, y, objTrocaPlayer)){
 	playerSelecionado = 2;
-	instance_destroy(objBalao);
-	show_debug_message("Estou colidindo com o Player");	
+	instance_destroy(objTrocaPlayer);
+	//show_debug_message("Estou colidindo com o Player");	
 }
 
 if( place_meeting(x, y, objInimigoBase)){dano = true;}
@@ -80,7 +85,7 @@ if(dano){
 	image_blend = c_red;
 		
 	danoTimer--;
-	show_debug_message( danoTimer);
+	//show_debug_message( danoTimer);
 	
 	if(danoTimer <= 0){		
 		dano = false;
@@ -89,3 +94,5 @@ if(dano){
 		vidaPlayer--;
 	}	
 }
+
+//show_debug_message(image_xscale)

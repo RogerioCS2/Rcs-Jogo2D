@@ -10,7 +10,7 @@ dano = false;
 
 velh = 0
 velv = 0
-max_velh = 5;
+max_velh = 4;
 velh_cor = 7
 max_velv = 7;
 grav = 0.2;

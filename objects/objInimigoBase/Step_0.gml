@@ -1,8 +1,8 @@
 chaoI = place_meeting(x, y + 1, objColisor); 
 
-paredeEsquerda = (place_meeting(x - 1, y, objColisorDianonal)) || (place_meeting(x - 1, y, objInimigoBase));
-paredeDireita = (place_meeting(x + 1, y, objColisorDianonal)) || (place_meeting(x + 1, y, objInimigoBase)) ;
-show_debug_message("Parede E: " + string(paredeEsquerda) + " Parede D: " + string(paredeDireita));
+paredeEsquerda = (place_meeting(x - 1, y, objColisorLateral)) || (place_meeting(x - 1, y, objInimigoBase))|| (place_meeting(x - 1, y, objBlocoExplosivo));
+paredeDireita = (place_meeting(x + 1, y, objColisorLateral)) || (place_meeting(x + 1, y, objInimigoBase))|| (place_meeting(x + 1, y, objBlocoExplosivo)) ;
+//show_debug_message("Parede E: " + string(paredeEsquerda) + " Parede D: " + string(paredeDireita));
 
 if(paredeEsquerda || paredeDireita){velhI *= -1;}
 

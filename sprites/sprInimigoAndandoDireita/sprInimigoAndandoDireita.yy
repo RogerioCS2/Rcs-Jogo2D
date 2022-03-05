@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1ea945e8-d334-491c-85df-34397cfc54a4","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1ea945e8-d334-491c-85df-34397cfc54a4","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"992078f3-d487-462c-ae88-868cf9265df8","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"1ea945e8-d334-491c-85df-34397cfc54a4","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"01b3a145-3567-4338-ae72-fda71079b1cd","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"01b3a145-3567-4338-ae72-fda71079b1cd","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"992078f3-d487-462c-ae88-868cf9265df8","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"01b3a145-3567-4338-ae72-fda71079b1cd","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"947c6414-959b-4007-9bd9-83d66c3808ac","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"947c6414-959b-4007-9bd9-83d66c3808ac","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"992078f3-d487-462c-ae88-868cf9265df8","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"947c6414-959b-4007-9bd9-83d66c3808ac","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"25dee062-5864-43f8-9402-bfbec1ecd779","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"25dee062-5864-43f8-9402-bfbec1ecd779","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"992078f3-d487-462c-ae88-868cf9265df8","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"25dee062-5864-43f8-9402-bfbec1ecd779","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dfabc568-7738-4b61-816b-2407d204fc78","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dfabc568-7738-4b61-816b-2407d204fc78","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"5d13e9d4-d36b-495e-a443-3214785b6b57","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"dfabc568-7738-4b61-816b-2407d204fc78","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"45fdd8e6-6b2d-40d3-b6f0-a97d8b4694bd","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"45fdd8e6-6b2d-40d3-b6f0-a97d8b4694bd","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"5d13e9d4-d36b-495e-a443-3214785b6b57","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"45fdd8e6-6b2d-40d3-b6f0-a97d8b4694bd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"faac341f-25c2-4586-93f4-71d0b09258ff","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"faac341f-25c2-4586-93f4-71d0b09258ff","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"5d13e9d4-d36b-495e-a443-3214785b6b57","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"faac341f-25c2-4586-93f4-71d0b09258ff","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"12c2bf98-00db-4658-ad1d-8828783dc33d","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"12c2bf98-00db-4658-ad1d-8828783dc33d","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"LayerId":{"name":"5d13e9d4-d36b-495e-a443-3214785b6b57","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","name":"12c2bf98-00db-4658-ad1d-8828783dc33d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},
@@ -50,10 +50,10 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d3be908f-24ea-416e-8ee7-2684b6b5f9f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1ea945e8-d334-491c-85df-34397cfc54a4","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"57de4d52-7ce4-4825-83c0-8205002f4d1e","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"01b3a145-3567-4338-ae72-fda71079b1cd","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"9fbb9ab3-2dd5-4bf2-9312-fd46a097b55f","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"947c6414-959b-4007-9bd9-83d66c3808ac","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5016086f-36a9-4d6f-ba6e-4dcfb2bfc3a2","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"25dee062-5864-43f8-9402-bfbec1ecd779","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2b58e33c-58be-4ba5-912b-779ad8e1df05","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dfabc568-7738-4b61-816b-2407d204fc78","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab8b90bc-27fb-4339-87b3-3e7325f6546f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"45fdd8e6-6b2d-40d3-b6f0-a97d8b4694bd","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f9add66f-0810-4736-808f-2b8aecfd42fd","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"faac341f-25c2-4586-93f4-71d0b09258ff","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ad6cadd6-c83a-426d-b9d1-92b6a627304b","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12c2bf98-00db-4658-ad1d-8828783dc33d","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -66,8 +66,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 32,
+    "xorigin": 32,
+    "yorigin": 64,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprInimigoAndandoDireita","path":"sprites/sprInimigoAndandoDireita/sprInimigoAndandoDireita.yy",},
@@ -77,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"992078f3-d487-462c-ae88-868cf9265df8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5d13e9d4-d36b-495e-a443-3214785b6b57","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
